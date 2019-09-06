@@ -1,0 +1,40 @@
+<HTML>
+<head>
+<title>
+	crud exam in oop
+</title>
+</head>
+<body>
+	
+	<div style="color:red; font-size:15px;">
+		<nav>
+			<ul>
+				<li><a href="display.php">Records</a></li>
+			</ul>
+		</nav>
+	</div>
+	<form method="post" action="insert.php">
+		<table border='1px'>
+			<tr>
+				<td>Name :</td>
+				<td><input type='text' name='name'></td>
+			</tr>
+			<tr>
+				<td>Address :</td>
+				<td><input type='text' name='add'></td>
+			</tr>
+			<tr>
+				
+				<td><input type='submit' name='submit' value="Click"></td>
+			</tr>
+		</table>
+	</form>
+	
+	<script>
+		document.ready(function(){
+				
+			console.log(jQuery(input['name']).val());
+		});
+	</script>
+</body>
+</HTML>
